@@ -7,8 +7,8 @@ loadData<-function(){
   #rm(list = ls())
   
   #load raw data
-  training <<- read.csv("pml-training.csv", header = TRUE)
-  test  <<- read.csv('pml-testing.csv')
+  training <<- read.csv("training.csv", header = TRUE)
+  test  <<- read.csv('testing.csv')
 }
 
 cleanData<-function(){

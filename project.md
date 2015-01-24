@@ -10,7 +10,7 @@ Loading data
 -------------------------------
 
 
-The training data for this project are available   [here](https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv) and the tests data [here](https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv) 
+The training data for this project are available   [here](https://d396qusza40orc.cloudfront.net/predmachlearn/training.csv) and the tests data [here](https://d396qusza40orc.cloudfront.net/predmachlearn/testing.csv) 
 
 After downloading into the working directory, the following code loads them in *training* and *test*. Needed libraries are also loaded.
 
@@ -20,8 +20,8 @@ library(caret)
 library(parallel)
 library(doParallel)
 #load raw data
-training <- read.csv("pml-training.csv", header = TRUE)
-test  <- read.csv('pml-testing.csv')
+training <- read.csv("training.csv", header = TRUE)
+test  <- read.csv('testing.csv')
 ```
 
 
